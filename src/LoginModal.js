@@ -1,4 +1,4 @@
-import './App.scss';
+import './LoginModal.scss';
 
 function App() {
   return (
