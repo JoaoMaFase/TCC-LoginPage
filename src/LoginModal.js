@@ -12,7 +12,7 @@ function LoginModal() {
 
   return (
     <div className="Mae">
-      <button onClick={e => setLoginModalOpened(true)}>Login</button>
+      <button onClick={() => setLoginModalOpened(true)}>Login</button>
       <Modal
         className="modal"
         overlayClassName="modal-overlay"
